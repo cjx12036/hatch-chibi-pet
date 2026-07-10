@@ -26,13 +26,13 @@ Codex 会根据 Skill 的 `description` 自动匹配并使用它。
 [![Validate Skill](https://github.com/cjx12036/hatch-chibi-pet/actions/workflows/validate.yml/badge.svg)](https://github.com/cjx12036/hatch-chibi-pet/actions/workflows/validate.yml)
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827)](skill/hatch-chibi-pet/SKILL.md)
 
-## 从原图到动态桌宠
+## Q 版桌宠展示
 
-| 1. 原图 | 2. Q 版角色 | 3. Codex 动态桌宠 |
-| :---: | :---: | :---: |
-| <img src="assets/demo/source-photo.jpg" width="260" alt="人物原始参考照片"> | <img src="assets/demo/idle.gif" width="180" alt="生成的 YJY Q 版角色"> | <img src="assets/demo/waving.gif" width="180" alt="YJY Codex 动态桌宠挥手动画"> |
+| Q 版角色 | Codex 动态桌宠 |
+| :---: | :---: |
+| <img src="assets/demo/idle.gif" width="180" alt="生成的 YJY Q 版角色"> | <img src="assets/demo/waving.gif" width="180" alt="YJY Codex 动态桌宠挥手动画"> |
 
-> 原图已获许可用于展示。公开他人的照片或生成形象前，请务必获得本人同意。
+> 本仓库不会收录人物原始照片。公开他人的生成形象前，请务必获得本人同意。
 
 ## 它能做什么
 
