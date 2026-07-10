@@ -1,0 +1,6 @@
+This skill bundles and modifies components from the Apache-2.0 licensed
+OpenAI hatch-pet skill. Modifications add a dedicated chibi style preset,
+Chinese sentence-punctuation handling, a fresh-left-row default, stable-slot
+extraction guidance, and a two-pass chroma cleanup workflow.
+Later modifications add deterministic uniform row-scale normalization after
+repeated model repairs preserve semantics but miss camera scale.

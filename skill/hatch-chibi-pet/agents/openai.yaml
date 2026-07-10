@@ -1,0 +1,4 @@
+interface:
+  display_name: "照片变 Q 版桌宠"
+  short_description: "把任意单人照片生成并安装为 Q 版 Codex 动态桌宠"
+  default_prompt: "使用 $hatch-chibi-pet 把我上传的人物照片制作成 Q 版 Codex 动态桌宠并安装。"

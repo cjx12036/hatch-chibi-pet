@@ -1,0 +1,55 @@
+name: Bug report
+description: Report a generation, animation, transparency, or packaging problem
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Please do not upload a private source portrait without the person's permission.
+  - type: input
+    id: version
+    attributes:
+      label: Skill version
+      placeholder: v1.0.0
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: macOS, Codex app
+    validations:
+      required: true
+  - type: dropdown
+    id: state
+    attributes:
+      label: Affected animation state
+      options:
+        - base
+        - idle
+        - running-right
+        - running-left
+        - waving
+        - jumping
+        - failed
+        - waiting
+        - running
+        - review
+        - packaging or installation
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include validation output and a generated contact sheet when possible.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
