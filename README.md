@@ -6,6 +6,7 @@ Turn any portrait into an installable **animated chibi pet for Codex**.
 
 [![Release](https://img.shields.io/github/v/release/cjx12036/hatch-chibi-pet?include_prereleases)](https://github.com/cjx12036/hatch-chibi-pet/releases)
 [![License](https://img.shields.io/github/license/cjx12036/hatch-chibi-pet)](LICENSE)
+[![Validate Skill](https://github.com/cjx12036/hatch-chibi-pet/actions/workflows/validate.yml/badge.svg)](https://github.com/cjx12036/hatch-chibi-pet/actions/workflows/validate.yml)
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827)](skill/hatch-chibi-pet/SKILL.md)
 
 <p align="center">
