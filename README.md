@@ -4,14 +4,35 @@
 
 Turn any single-person photo into an installable **animated chibi pet for Codex**.
 
+## Install in One Prompt
+
+Paste this into Codex:
+
+```text
+Use $skill-installer to install this Skill:
+https://github.com/cjx12036/hatch-chibi-pet/tree/main/skill/hatch-chibi-pet
+```
+
+Start a new task after installation, upload a single-person photo, and simply say:
+
+```text
+Turn this person into a chibi Codex pet.
+```
+
+Codex will match and use the Skill automatically from its description.
+
 [![Release](https://img.shields.io/github/v/release/cjx12036/hatch-chibi-pet?include_prereleases)](https://github.com/cjx12036/hatch-chibi-pet/releases)
 [![License](https://img.shields.io/github/license/cjx12036/hatch-chibi-pet)](LICENSE)
 [![Validate Skill](https://github.com/cjx12036/hatch-chibi-pet/actions/workflows/validate.yml/badge.svg)](https://github.com/cjx12036/hatch-chibi-pet/actions/workflows/validate.yml)
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827)](skill/hatch-chibi-pet/SKILL.md)
 
-<p align="center">
-  <img src="assets/demo/idle.gif" width="180" alt="YJY chibi pet idle animation">
-</p>
+## From Photo to Animated Pet
+
+| 1. Original photo | 2. Chibi character | 3. Animated Codex pet |
+| :---: | :---: | :---: |
+| <img src="assets/demo/source-photo.jpg" width="260" alt="Original reference photo"> | <img src="assets/demo/idle.gif" width="180" alt="Generated YJY chibi character"> | <img src="assets/demo/waving.gif" width="180" alt="Animated YJY Codex pet waving"> |
+
+> The source photo is shown with permission. Always obtain consent before publishing someone else's photo or generated likeness.
 
 ## What It Does
 
@@ -32,11 +53,11 @@ Complete nine-state contact sheet:
 
 ![YJY contact sheet](assets/demo/contact-sheet.png)
 
-> The example repository contains generated results only. The person's original photo is not included.
-
 ## Installation
 
-### Option 1: Download a Release
+The one-prompt `$skill-installer` method at the top is recommended. You can also install the Skill manually.
+
+### Manual Option 1: Download a Release
 
 Download `hatch-chibi-pet.zip` from the [latest release](https://github.com/cjx12036/hatch-chibi-pet/releases/latest), then extract it to:
 
@@ -44,7 +65,7 @@ Download `hatch-chibi-pet.zip` from the [latest release](https://github.com/cjx1
 ~/.codex/skills/hatch-chibi-pet/
 ```
 
-### Option 2: Git Clone
+### Manual Option 2: Git Clone
 
 ```bash
 git clone https://github.com/cjx12036/hatch-chibi-pet.git

@@ -4,14 +4,35 @@
 
 把任意单人照片变成可安装的 **Q 版 Codex 动态桌宠**。
 
+## 一句话安装
+
+在 Codex 中粘贴：
+
+```text
+使用 $skill-installer 安装这个 Skill：
+https://github.com/cjx12036/hatch-chibi-pet/tree/main/skill/hatch-chibi-pet
+```
+
+安装后新建任务，上传一张单人照片，直接说：
+
+```text
+把这张人物照片制作成 Q 版 Codex 桌宠
+```
+
+Codex 会根据 Skill 的 `description` 自动匹配并使用它。
+
 [![Release](https://img.shields.io/github/v/release/cjx12036/hatch-chibi-pet?include_prereleases)](https://github.com/cjx12036/hatch-chibi-pet/releases)
 [![License](https://img.shields.io/github/license/cjx12036/hatch-chibi-pet)](LICENSE)
 [![Validate Skill](https://github.com/cjx12036/hatch-chibi-pet/actions/workflows/validate.yml/badge.svg)](https://github.com/cjx12036/hatch-chibi-pet/actions/workflows/validate.yml)
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827)](skill/hatch-chibi-pet/SKILL.md)
 
-<p align="center">
-  <img src="assets/demo/idle.gif" width="180" alt="YJY Q 版桌宠待机动画">
-</p>
+## 从原图到动态桌宠
+
+| 1. 原图 | 2. Q 版角色 | 3. Codex 动态桌宠 |
+| :---: | :---: | :---: |
+| <img src="assets/demo/source-photo.jpg" width="260" alt="人物原始参考照片"> | <img src="assets/demo/idle.gif" width="180" alt="生成的 YJY Q 版角色"> | <img src="assets/demo/waving.gif" width="180" alt="YJY Codex 动态桌宠挥手动画"> |
+
+> 原图已获许可用于展示。公开他人的照片或生成形象前，请务必获得本人同意。
 
 ## 它能做什么
 
@@ -32,11 +53,11 @@
 
 ![YJY 完整动作表](assets/demo/contact-sheet.png)
 
-> 示例仓库只包含生成结果，不包含人物原始照片。
-
 ## 安装
 
-### 方式一：下载 Release
+推荐使用顶部的 `$skill-installer` 一句话安装方式，也可以手动安装。
+
+### 手动方式一：下载 Release
 
 从[最新版本](https://github.com/cjx12036/hatch-chibi-pet/releases/latest)下载 `hatch-chibi-pet.zip`，然后解压到：
 
@@ -44,7 +65,7 @@
 ~/.codex/skills/hatch-chibi-pet/
 ```
 
-### 方式二：Git Clone
+### 手动方式二：Git Clone
 
 ```bash
 git clone https://github.com/cjx12036/hatch-chibi-pet.git
