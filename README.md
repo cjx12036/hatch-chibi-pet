@@ -26,13 +26,13 @@ Codex will match and use the Skill automatically from its description.
 [![Validate Skill](https://github.com/cjx12036/hatch-chibi-pet/actions/workflows/validate.yml/badge.svg)](https://github.com/cjx12036/hatch-chibi-pet/actions/workflows/validate.yml)
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827)](skill/hatch-chibi-pet/SKILL.md)
 
-## From Photo to Animated Pet
+## Chibi Pet Preview
 
-| 1. Original photo | 2. Chibi character | 3. Animated Codex pet |
-| :---: | :---: | :---: |
-| <img src="assets/demo/source-photo.jpg" width="260" alt="Original reference photo"> | <img src="assets/demo/idle.gif" width="180" alt="Generated YJY chibi character"> | <img src="assets/demo/waving.gif" width="180" alt="Animated YJY Codex pet waving"> |
+| Chibi character | Animated Codex pet |
+| :---: | :---: |
+| <img src="assets/demo/idle.gif" width="180" alt="Generated YJY chibi character"> | <img src="assets/demo/waving.gif" width="180" alt="Animated YJY Codex pet waving"> |
 
-> The source photo is shown with permission. Always obtain consent before publishing someone else's photo or generated likeness.
+> Source photos are never included in this repository. Always obtain consent before publishing someone else's generated likeness.
 
 ## What It Does
 
